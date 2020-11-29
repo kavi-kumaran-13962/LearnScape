@@ -1,0 +1,48 @@
+.Auth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+    border-radius: 1rem;
+  }
+  &__image {
+    max-width: 650px;
+
+    margin: 0 auto;
+    &--img {
+      width: 100%;
+    }
+  }
+  &__form {
+    margin: 0 auto;
+    width: 300px;
+    &__image {
+      width: 50%;
+      margin: 0 auto;
+    }
+    &--img {
+      width: 100%;
+    }
+    &--logotxt {
+      text-align: center;
+    }
+  }
+}
+
+.inp-email {
+  margin-top: 2rem;
+}
+
+.inp-pwd {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@import "media";

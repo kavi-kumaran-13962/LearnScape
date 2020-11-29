@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1300px) {
+  .Auth {
+    &__form {
+      margin: 0 30px;
+    }
+    &__image {
+      margin: 0 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .Auth {
+    &__container {
+      height: 100vh;
+      width: 100vw;
+    }
+    &__form {
+      margin: 0 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .Auth {
+    &__form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__image {
+      display: none;
+    }
+    &__form {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap);
+.Auth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.Auth__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 85vh;
+  width: 85vw;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+  border-radius: 1rem;
+}
+.Auth__image {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.Auth__image--img {
+  width: 100%;
+}
+.Auth__form {
+  margin: 0 auto;
+  width: 250px;
+}
+.Auth__form__image {
+  width: 60%;
+  margin: 0 auto;
+}
+.Auth__form--img {
+  width: 100%;
+}
+.Auth__form--logotxt {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+.inp-email {
+  margin-top: 2rem;
+}
+.inp-pwd {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.input {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.393);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.393);
+  display: block;
+  height: 45px;
+  padding: 3px;
+  width: 100%;
+  border-radius: 3px;
+  color: #8a8a8a;
+}
+.input__inp {
+  display: block;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 60%;
+  width: 100%;
+}
+.btn {
+  display: block;
+  width: 100%;
+}

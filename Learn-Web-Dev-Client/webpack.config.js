@@ -7,13 +7,17 @@ const config = {
   },
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "[name].[chunkhash].js",
-    publicPath: "build/",
+    filename: "[name].[hash].js",
   },
   module: {
     rules: [
       {
-        use: "babel-loader",
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-react"],
+          },
+        },
         test: /\.js$/,
         exclude: /node_modules/,
       },
@@ -37,6 +41,18 @@ const config = {
             options: { limit: 40000 },
           },
           "image-webpack-loader",
+        ],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "svg-url-loader",
+            options: {
+              limit: 10000,
+              name: "[name].[ext]",
+            },
+          },
         ],
       },
     ],
