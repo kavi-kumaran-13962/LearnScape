@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.png";
 import developer from "./developer.svg";
-import "./Auth.css";
+import "./Auth.scss";
 export default class Auth extends Component {
   constructor() {
     super();
