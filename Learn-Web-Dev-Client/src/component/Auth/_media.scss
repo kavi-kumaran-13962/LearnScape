@@ -37,3 +37,10 @@
     }
   }
 }
+@media only screen and (min-width: 992px){
+  .Auth{
+    &__image{
+      width: 80vh;
+    }
+  }
+}
