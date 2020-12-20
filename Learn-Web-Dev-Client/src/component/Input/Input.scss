@@ -1,44 +1,52 @@
-.email {
-  margin-top: 2rem;
-}
-
-.password {
-  margin-top: 1rem;
-}
-
 .input {
-  font-size: 13px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.393);
-  display: block;
-  height: 44px;
-  padding: 0 3px;
-  width: 100%;
-  border-radius: 3px;
-  color: #8a8a8a;
-  transition: all 0.3s ease;
-
-  .fa {
-    margin-right: 1rem;
-    font-size: 18px;
-    position: relative;
-    top: 25%;
-  }
-  .fa-lock {
-    font-size: 22px;
-  }
-  .label {
-    margin-top: 0;
-  }
-  &__inp {
-    display: inline-block;
-    position: relative;
-    left: 10%;
-    border: none;
-    box-sizing: border-box;
-    height: 40%;
-    width: 90%;
-  }
-  &__inp:focus {
+  border-style: none;
+  box-shadow: rgba(90, 90, 90, 0.568) 2px 2px 4px;
+  border-radius: 2px;
+  text-align: center;
+  &:focus {
+    box-shadow: rgba(90, 90, 90, 0.568) 2px 2px 8px;
     outline: none;
   }
+  &-icon {
+    position: absolute;
+    margin: 1rem;
+    color: rgba(90, 90, 90, 0.836);
+  }
 }
+
+// .input {
+//   font-size: 13px;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.393);
+//   display: block;
+//   height: 44px;
+//   padding: 0 3px;
+//   width: 100%;
+//   border-radius: 3px;
+//   color: #8a8a8a;
+//   transition: all 0.3s ease;
+
+//   .fa {
+//     margin-right: 1rem;
+//     font-size: 18px;
+//     position: relative;
+//     top: 25%;
+//   }
+//   .fa-lock {
+//     font-size: 22px;
+//   }
+//   .label {
+//     margin-top: 0;
+//   }
+//   &__inp {
+//     display: inline-block;
+//     position: relative;
+//     left: 10%;
+//     border: none;
+//     box-sizing: border-box;
+//     height: 40%;
+//     width: 90%;
+//   }
+//   &__inp:focus {
+//     outline: none;
+//   }
+// }
