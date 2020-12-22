@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import logo from "./logo.png";
-import developer from "./developer.svg";
-import "./Auth.scss";
-import Input from "../Input/Input";
-import Button from "../Button/Button";
-
+import logo from "../logo.png";
+import developer from "../developer.svg";
+import Input from "../../Input/Input";
+import Button from "../../Button/Button";
+import "../Auth.scss";
 export default function Auth() {
   return (
     <div className="Auth">
