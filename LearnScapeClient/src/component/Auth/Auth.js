@@ -21,10 +21,14 @@ export default function Auth() {
               <h3 className="Auth__form--logotxt">Learn Web Dev</h3>
             </div>
           </div>
-          <Input title="Email" icon="fa fa-user" />
+          <Input
+            title="Classcode"
+            icon="fa fa-university"
+            placeholder="Class Code"
+          />
+          <Input title="rollno" icon="fa fa-user" placeholder="Roll No" />
           <Input title="Password" icon="fa fa-lock" />
           <Button title="Login" />
-          <Button title="Signup" />
         </div>
       </div>
     </div>

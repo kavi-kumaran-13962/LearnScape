@@ -1,0 +1,14 @@
+@import "../../styles/config";
+.btn {
+  background-color: $color;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 1rem;
+  box-shadow: 0 3px 5px $color;
+ 
+}
+
+.btn:hover {
+  background-color: darken($color: $color, $amount: 10%);
+}
