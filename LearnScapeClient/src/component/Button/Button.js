@@ -7,7 +7,7 @@ export default function Button(props) {
   return (
     <div>
       <button className={className}>
-        <span className={`btn-${text}`}>{text}</span>
+        <span className="btn-text">{text}</span>
       </button>
     </div>
   );

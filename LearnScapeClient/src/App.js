@@ -13,8 +13,6 @@ export default function App() {
         <Route path="/cc" component={CcLogin} />
         <Route path="/teacher" component={TeacherLogin} />
         <Route path="/student" component={StudentLogin} />
-        <Route path="/" component={CcLogin} />
-        {/* <Route path="/teacher" component={TeacherLogin} /> */}
       </switch>
     </div>
   );
