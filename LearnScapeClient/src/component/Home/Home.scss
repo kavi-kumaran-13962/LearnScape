@@ -1,0 +1,51 @@
+.sidenav {
+  width: 250px;
+  height: 100vh;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  i {
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+}
+.navdiv {
+  padding: 0.7rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pointer {
+  position: absolute;
+  top: 59%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  height: 46px;
+  width: 4px;
+  background-color: #ff6969;
+}
+.navdiv:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.493);
+  color: #ff6969;
+  .navlink{
+      color: #ff6969;
+  }
+}
+.logo {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+}
