@@ -1,0 +1,70 @@
+
+.createcls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 25vw;
+    text-align: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+    border-radius: 1rem;
+}
+.cClass{
+        color: rgb(110, 110, 110);
+        font-size: 25px;
+        text-align: center;
+        margin-top: 3rem;
+}
+.createcls .progress{
+    display: flex;
+    margin: 25px 0 40px 0;
+    user-select: none;
+  }
+  .createcls .progress .steps{
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  .progress .steps .num{
+    height: 30px;
+    width: 30px;
+    background-color: #F5F5F5;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  
+  .progress .steps .num:before,
+  .progress .steps .num:after{
+    position: absolute;
+    content: '';
+    bottom: 9px;
+    right: -100px;
+    height: 8px;
+    width: 100px;
+    background:#F5F5F5;
+  }
+  .progress .steps:last-child .num:before,
+  .progress .steps:last-child .num:after{
+    display: none;
+  }
+  .progress .steps .check{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .progress .steps .check.active{
+    display: block;
+    color: #fff;
+  }
+  .num span{
+      color: #FF6969;
+  }

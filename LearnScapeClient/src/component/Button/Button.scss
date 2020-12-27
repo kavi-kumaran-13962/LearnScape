@@ -1,14 +1,29 @@
 @import "../../styles/config";
+<<<<<<< HEAD
+
+=======
+>>>>>>> 825bbeabc9aabb4b1e1dac9ff33b2a7476fba50d
 .btn {
   background-color: $color;
   color: white;
   border: none;
+<<<<<<< HEAD
+  font-size: 14px;
+  border-radius: 1rem;
+  box-shadow: 0 3px 5px $color;
+  padding: 6px 16px 6px 16px;
+=======
   font-size: 16px;
   border-radius: 1rem;
   box-shadow: 0 3px 5px $color;
  
+>>>>>>> 825bbeabc9aabb4b1e1dac9ff33b2a7476fba50d
 }
 
 .btn:hover {
   background-color: darken($color: $color, $amount: 10%);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 825bbeabc9aabb4b1e1dac9ff33b2a7476fba50d

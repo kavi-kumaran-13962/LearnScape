@@ -1,0 +1,44 @@
+.activation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 25vw;
+    text-align: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+    border-radius: 1rem;
+
+    .actAcc {
+        color: rgb(110, 110, 110);
+        font-size: 25px;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .input{
+        &__Phno{
+            width: 300px;
+            height: 30px;
+            margin-top: 1.2rem;
+            margin-left: 0.5rem;
+        }
+
+        &__Name{
+            width: 300px;
+            height: 30px;
+            margin-top: 1.2rem;
+            margin-left: 0.5rem;
+        }
+
+        &__Email{
+            width: 300px;
+            height: 30px;
+            margin-top: 1.2rem;
+            margin-left: 0.5rem;
+        }
+    }
+
+}
+
+

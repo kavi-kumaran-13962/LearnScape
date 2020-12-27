@@ -3,12 +3,17 @@ import "./Input.scss";
 export default function Input(props) {
   const className = `input input__${props.title}`;
   const icon = `${props.icon}`;
+  const type = props.type ? props.type : "text";
   const placeholder = props.placeholder ? props.placeholder : props.title;
 
   return (
     <div>
       <i className={`input-icon ${icon}`}></i>
-      <input className={className} placeholder={placeholder}></input>
+      <input
+        type={type}
+        className={className}
+        placeholder={placeholder}
+      ></input>
     </div>
   );
 }

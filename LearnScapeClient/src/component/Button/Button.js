@@ -7,7 +7,11 @@ export default function Button(props) {
   return (
     <div>
       <button className={className}>
+<<<<<<< HEAD
+        <span className={`btn-${text}`}>{text}</span>
+=======
         <span className="btn-text">{text}</span>
+>>>>>>> 825bbeabc9aabb4b1e1dac9ff33b2a7476fba50d
       </button>
     </div>
   );
