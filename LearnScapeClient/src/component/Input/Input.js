@@ -9,7 +9,11 @@ export default function Input(props) {
   return (
     <div>
       <i className={`input-icon ${icon}`}></i>
-      <input type = {type}  className={className} placeholder={placeholder}></input>
+      <input
+        type={type}
+        className={className}
+        placeholder={placeholder}
+      ></input>
     </div>
   );
 }
