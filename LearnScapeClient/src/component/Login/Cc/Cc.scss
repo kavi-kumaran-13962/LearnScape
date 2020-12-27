@@ -1,0 +1,31 @@
+@import "../../../styles/config";
+.or {
+  margin: 0.5rem 0;
+  color: $light-txt;
+  display: flex;
+  .divider {
+    display: inline-block;
+    border-bottom: $light-txt 1px solid;
+    width: 150px;
+    margin: 23px 10px;
+  }
+  &-txt {
+    font-size: 11px;
+  }
+}
+
+.noacc {
+  color: rgb(110, 110, 110);
+  font-size: 11px;
+  margin-top: -0.8rem;
+  margin-left: 4.9rem;
+}
+
+.btn {
+  &__signup {
+    margin-top: 0.4rem;
+    width: 280px;
+    height: 30px;
+    margin-left: 0.5rem;
+  }
+}

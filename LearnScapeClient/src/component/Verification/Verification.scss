@@ -1,0 +1,18 @@
+.Verification {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 23vh;
+    width: 19vw;
+    text-align: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.393);
+    border-radius: 1rem;
+}
+
+.emailVerify {
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    text-align: center;
+
+}
