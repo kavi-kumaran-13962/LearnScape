@@ -1,21 +1,18 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import Cclogin from "./component/CcLogin/Cclogin";
+import StudentLogin from "./component/StudentLogin/StudentLogin";
+import TeacherLogin from "./component/TeacherLogin/TeacherLogin";
 import "./styles/utility.scss";
-import StudentLogin from "./component/Login/Student/Student";
-import TeacherLogin from "./component/Login/Teacher/Teacher";
-import CcLogin from "./component/Login/Cc/Cc";
-import Verification from "./component/Verification/Verification";
-import Activation from "./component/Activation/Activation";
-import createClass from "./component/Createclass/Createclass";
+
 export default function App() {
   return (
     <div>
       <Switch>
-        <Route path="/" component={Verification} />
-        {/* <Route path="/" component={CcLogin} /> */}
-        {/* <Route path="/" component={TeacherLogin} /> */}
+        <Route exact path="/" component={TeacherLogin} />
+        <Route path="/cc" component={Cclogin} />
+        <Route path="/student" component={StudentLogin} />
       </Switch>
     </div>
   );
 }
-export default App;
